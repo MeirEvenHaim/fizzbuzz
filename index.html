@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+let i = 1;// a global variable for the count of the program
+while (i <= 100) {// a while loop of up to the number 100
+    if (i % 3 == 0 && i % 5 == 0) { // teeling the program that if its divided with 3 and 5 with 0 reminder it will say fizzbuzz
+        console.log("FizzBuzz");
+    } else if (i % 3 === 0) {// same for here jsut with the reminder of 3 with 0
+        console.log("Fizz");
+    } else if (i % 5 === 0) {// same for here jsut with the reminder of 5 with 0
+        console.log("Buzz");
+    } else {
+        console.log(i);// if there is a reminder then a number will be printed to the console
+    }
+    i++;//same for the for loop it is a check on the while loop for not creating an endless loop
+}// end of the loop all of the above stages are the body of the while loop 
+//the syntax of a while loop looks like this:while(x?condition){if else conditions and commands}
+
+
+    </script>
+
+</body>
+
+</html>
